@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color:rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+.logo{
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: auto
+}
+.logo h1{
+  margin-left: 10px;
+  color: #ffffff;
+  font-weight: lighter;
+}
+.social{
+  display: flex;
+  width: 100%;
+  margin:auto;
+  justify-content: flex-end;
+}
+.social a{
+margin: 20px;
+text-decoration: none;
+font-size: 50px;
+color: white;
+}
+
+
+.section-about{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.section-about .card-jmbt{
+  width: 70%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.section-about .card-jmbt h1{
+  margin: auto;
+  color: #fff;
+  font-weight: lighter;
+}
+
+/* contenedor de imagenes */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container .images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .images .img{
+  display: flex;
+  width: 400px;
+  margin: 10px;
+  overflow: hidden;
+}
+.container .images .img img{
+  transition: 0.5s all ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.img:hover img{
+  transform: scale(1.5);
+}
